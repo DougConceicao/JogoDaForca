@@ -1,12 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
-}
+
 
 body {
     font-family: 'Consolas', Arial, Arial, Helvetica, sans-serif;
+
 }
 
 .flex-container-1 {
@@ -17,7 +13,7 @@ body {
 .flex-container-2 {
     display: flex;
     justify-content: center;
-}
+    }
 
 .flex-container-2-2 {
     display: flex;
@@ -66,6 +62,18 @@ button {
     text-transform: uppercase;
 }
 
-button:houver {
-    background-color: #0682a0;
+button:hover {
+    background-color: #0682ac;
+}
+
+.certa, .certa:hover {
+    background-color: #0682ac;
+    border: 1px solid #0682ac;
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background-color: #dc1f27;
+    border: 1px solid #dc1f27;
+    cursor: inherit;
 }
